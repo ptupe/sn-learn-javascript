@@ -18,12 +18,12 @@ var fun = function() {...};   // var decl., assignmt, and func. defin.
 alert("hi");                  // function call
 
 // Avoid
-// NO semicolons after }:
+// NO semicolons after }: when using loops like >> if/for/while
 if  (...) {...} else {...}
 for (...) {...}
 while (...) {...}
 
-// BUT:
+// BUT: need to use semicolon when using do{} while{};
 do {...} while (...);
 
 // function statement: 
