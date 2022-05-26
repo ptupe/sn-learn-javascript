@@ -1,5 +1,5 @@
 // 
-// L07S01 - Special characters
+// L07S01 - Special characters - called as Escape characters
 //
 // \n = new line
 // \t = tab
