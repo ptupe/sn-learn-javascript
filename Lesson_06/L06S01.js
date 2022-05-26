@@ -8,4 +8,5 @@ var myCar     = "Chuck's Car";  // Mix them to avoid issues
 // Note the use of + when strings are involved
 var name = firstName + ' ' + lastName;
 gs.info(name);
-gs.info('length of name=' + name.length);
+gs.info('length of name=' + name.length); //To find the length of a string, use the built-in length property:
+
