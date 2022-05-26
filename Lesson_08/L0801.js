@@ -5,7 +5,7 @@ var i = 5;
 var iStr = i.toString(); // <<< .toString converts variable i to a string
 gs.info(typeof i);
 gs.info(typeof iStr); 
-
+gs.info(typeof iStr + ' iStr=' + iStr + ' & iStr + 2 =' + (iStr+2)); // <<< addition of integer 2 with a string gives incorrect results
 var n = parseInt(iStr); // <<< parseInt(iStr) converts variable iStr to an integer
 gs.info(typeof n + ' n=' + n + '& n + 2 =' + (n+2));
 var f = parseFloat(iStr); // <<< parseFloat(iStr) converts variable iStr to a float
