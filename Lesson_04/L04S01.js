@@ -16,6 +16,10 @@ gs.info(a + b);
 // Increment by 1
 a++;
 gs.info(a);
+gs.info(a++); // First print and then increment by 1
+gs.info(a);
+gs.info(++a); // First increment by 1 and then print
+gs.info(a);
 
 // Decrement by 1
 b--;
@@ -33,5 +37,5 @@ gs.info(a);
 gs.info(b);
 gs.info(a % b);
 
-var c = (5 + 4) * 2;
+var c = (5 + 4) * 2; //Arithmatic operators have precedence when used paranthesis
 gs.info(c);
