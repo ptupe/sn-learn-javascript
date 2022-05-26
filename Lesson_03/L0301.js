@@ -13,3 +13,4 @@ var lastEntryInTheListWithRelatedRecords = true; // a bit long?
 // personList       // Must be a list
 // personObj        // Object
 // personGr         // GlideRecord
+// Camel casing -> starting with small letters and Capital for first letter of next words
