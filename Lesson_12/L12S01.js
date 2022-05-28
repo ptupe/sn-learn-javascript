@@ -13,3 +13,6 @@ else
 // Introducing a shortcut way...
 var openStatusString = (valveOpen) ? 'open' : 'closed';
 gs.info('2: Valve is currently ' + openStatusString);
+// This works as
+var openStatusString = (valveOpen=true) ? 'open' : 'closed';
+gs.info('2: Valve is currently ' + openStatusString);
